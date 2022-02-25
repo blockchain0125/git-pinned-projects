@@ -1,0 +1,33 @@
+{
+	"name": "gh-pinned-repos",
+	"version": "1.0.0",
+	"description": "https://gh-pinned-repos.egoist.sh",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.ts",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/egoist/gh-pinned-repos.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/egoist/gh-pinned-repos/issues"
+	},
+	"homepage": "https://github.com/egoist/gh-pinned-repos#readme",
+	"devDependencies": {
+		"@types/node": "^17.0.15"
+	},
+	"type": "module",
+	"dependencies": {
+		"axios": "^0.25.0",
+		"cheerio": "^1.0.0-rc.10",
+		"https": "^1.0.0",
+		"node-fetch": "^3.2.0",
+		"ts-node": "^10.4.0",
+		"typescript": "^4.5.5"
+	}
+}
